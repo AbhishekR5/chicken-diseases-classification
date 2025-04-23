@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/AbhishekR5/chicken-diseases-classification
+Author: AbhishekR5
+Author-email: abhishekramachandra98@gmail.com
+Project-URL: Bug Tracker, https://github.com/AbhishekR5/chicken-diseases-classification/issues
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# chicken-diseases-classification
