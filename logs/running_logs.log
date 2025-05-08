@@ -243,3 +243,54 @@ Source-Age: 0
 [2025-05-08 19:46:59,941: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-05-08 21:27:27,310: INFO: main: Welcome to cnnClassifier]
+[2025-05-08 21:27:27,310: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 21:27:27,320: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 21:27:27,320: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-08 21:27:27,320: INFO: common: created directory at: artifacts]
+[2025-05-08 21:27:27,324: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-08 21:28:07,541: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E73:2AA34C:3D53B:7EB00:681CD46B
+Accept-Ranges: bytes
+Date: Thu, 08 May 2025 15:57:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746719852.048394,VS0,VE891
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1dd068f7a37e145cae31979a7ff7586149724af1
+Expires: Thu, 08 May 2025 16:02:32 GMT
+Source-Age: 1
+
+]
+[2025-05-08 21:28:07,914: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-05-08 21:28:07,914: INFO: main: *******************]
+[2025-05-08 21:28:07,914: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-05-08 21:28:07,914: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 21:28:07,914: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-08 21:28:07,920: INFO: common: created directory at: artifacts]
+[2025-05-08 21:28:07,920: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-08 21:28:08,530: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-05-08 21:28:08,815: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-05-08 21:30:36,974: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 21:30:36,974: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-08 21:30:36,979: INFO: common: created directory at: artifacts]
+[2025-05-08 21:30:36,982: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-05-08 21:30:37,674: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]

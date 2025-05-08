@@ -25,7 +25,7 @@ class PrepareBaseModelConfig:
 
 
 
-@dataclass(frozen=True)
+"""@dataclass(frozen=True)
 class TrainingConfig:
     root_dir: Path
     trained_model_path: Path
@@ -45,4 +45,4 @@ class EvaluationConfig:
     all_params: dict
     mlflow_uri: str
     params_image_size: list
-    params_batch_size: int
+    params_batch_size: int"""
