@@ -488,3 +488,47 @@ x==========x]
 [2025-05-08 23:14:08,891: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-05-08 23:31:48,107: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.109:8080]
+[2025-05-08 23:31:48,108: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-08 23:31:48,110: INFO: _internal:  * Restarting with stat]
+[2025-05-08 23:31:51,734: WARNING: _internal:  * Debugger is active!]
+[2025-05-08 23:31:51,739: INFO: _internal:  * Debugger PIN: 801-933-401]
+[2025-05-08 23:31:56,182: INFO: _internal: 127.0.0.1 - - [08/May/2025 23:31:56] "GET / HTTP/1.1" 200 -]
+[2025-05-08 23:32:44,548: INFO: _internal: 127.0.0.1 - - [08/May/2025 23:32:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-08 23:32:54,309: INFO: _internal: 127.0.0.1 - - [08/May/2025 23:32:54] "GET / HTTP/1.1" 200 -]
+[2025-05-08 23:33:37,230: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:33:37] "GET / HTTP/1.1" 200 -]
+[2025-05-08 23:35:18,042: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:35:18] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-08 23:36:36,038: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.109:8080]
+[2025-05-08 23:36:36,039: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-08 23:36:36,041: INFO: _internal:  * Restarting with stat]
+[2025-05-08 23:36:39,966: WARNING: _internal:  * Debugger is active!]
+[2025-05-08 23:36:39,970: INFO: _internal:  * Debugger PIN: 801-933-401]
+[2025-05-08 23:36:43,505: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:36:43] "GET / HTTP/1.1" 200 -]
+[2025-05-08 23:36:51,762: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:36:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-08 23:41:00,998: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.31.109:8080]
+[2025-05-08 23:41:01,000: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-08 23:41:01,003: INFO: _internal:  * Restarting with stat]
+[2025-05-08 23:41:06,498: WARNING: _internal:  * Debugger is active!]
+[2025-05-08 23:41:06,504: INFO: _internal:  * Debugger PIN: 801-933-401]
+[2025-05-08 23:41:06,836: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:41:06] "GET / HTTP/1.1" 200 -]
+[2025-05-08 23:41:17,601: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:41:17] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:41:46,057: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:41:46] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:42:17,246: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:42:17] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:42:33,240: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:42:33] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:42:37,053: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018405793820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-08 23:42:37,059: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:42:37] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:42:57,879: WARNING: polymorphic_function: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018407729820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2025-05-08 23:42:57,895: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:42:57] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:43:10,797: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:43:10] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:43:20,252: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:43:20] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:43:28,002: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:43:28] "POST /predict HTTP/1.1" 200 -]
+[2025-05-08 23:43:38,944: INFO: _internal: 192.168.31.109 - - [08/May/2025 23:43:38] "POST /predict HTTP/1.1" 200 -]
