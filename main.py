@@ -15,7 +15,8 @@ except Exception as e:
         logger.exception(e)
         raise e
 
-CONFIG_FILE_PATH = "path_to_yaml"
+CONFIG_FILE_PATH = os.path.join(os.getcwd(), "config", "config.yaml")
+PARAMS_FILE_PATH = os.path.join(os.getcwd(), "params.yaml")
 
 def read_yaml(path_to_yaml):
     """

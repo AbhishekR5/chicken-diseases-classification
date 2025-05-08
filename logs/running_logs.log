@@ -172,3 +172,74 @@ zipfile.BadZipFile: File is not a zip file
 [2025-05-08 16:54:53,345: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-05-08 18:33:56,618: INFO: main: Welcome to cnnClassifier]
+[2025-05-08 18:33:56,618: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 18:33:56,618: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\abhis\\OneDrive\\Desktop\\Projects\\end-to-end-cdc\\chicken-diseases-classification\\src\\cnnClassifier\\config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\abhis\OneDrive\Desktop\Projects\end-to-end-cdc\chicken-diseases-classification\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\config\configuration.py", line 18, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\abhis\anaconda3\envs\cdc\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\abhis\\OneDrive\\Desktop\\Projects\\end-to-end-cdc\\chicken-diseases-classification\\src\\cnnClassifier\\config\\config.yaml'
+[2025-05-08 19:08:13,713: INFO: main: Welcome to cnnClassifier]
+[2025-05-08 19:08:13,713: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 19:08:13,713: INFO: common: yaml file: C:\Users\abhis\OneDrive\Desktop\Projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\config\config.yaml loaded successfully]
+[2025-05-08 19:08:13,713: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\abhis\\OneDrive\\Desktop\\Projects\\end-to-end-cdc\\chicken-diseases-classification\\src\\cnnClassifier\\params.yaml']
+Traceback (most recent call last):
+  File "C:\Users\abhis\OneDrive\Desktop\Projects\end-to-end-cdc\chicken-diseases-classification\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\config\configuration.py", line 19, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\abhis\anaconda3\envs\cdc\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\abhis\onedrive\desktop\projects\end-to-end-cdc\chicken-diseases-classification\src\cnnClassifier\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\abhis\\OneDrive\\Desktop\\Projects\\end-to-end-cdc\\chicken-diseases-classification\\src\\cnnClassifier\\params.yaml'
+[2025-05-08 19:46:51,192: INFO: main: Welcome to cnnClassifier]
+[2025-05-08 19:46:51,192: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-05-08 19:46:51,192: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-05-08 19:46:51,192: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-08 19:46:51,198: INFO: common: created directory at: artifacts]
+[2025-05-08 19:46:51,198: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-05-08 19:46:59,589: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E303:B24B:18764:30E80:681CB9B8
+Accept-Ranges: bytes
+Date: Thu, 08 May 2025 14:16:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10238-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1746713815.289583,VS0,VE292
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8245266b55ae3c8e9ebf8de0188b59ff39060f5d
+Expires: Thu, 08 May 2025 14:21:55 GMT
+Source-Age: 0
+
+]
+[2025-05-08 19:46:59,941: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

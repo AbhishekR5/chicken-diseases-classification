@@ -1,10 +1,7 @@
 import os
 from cnnClassifier.constants import *
 from cnnClassifier.utils.common import read_yaml, create_directories
-from cnnClassifier.entity.config_entity import (DataIngestionConfig,
-                                                PrepareBaseModelConfig,
-                                                TrainingConfig,
-                                                EvaluationConfig)
+from cnnClassifier.entity.config_entity import (DataIngestionConfig)
 
 
 class ConfigurationManager:
@@ -13,8 +10,8 @@ class ConfigurationManager:
         
         config_filepath = CONFIG_FILE_PATH,
         params_filepath = PARAMS_FILE_PATH):
-        CONFIG_FILE_PATH = "config/config.yaml"
-        PARAMS_FILE_PATH = "params.yaml"
+        config_filepath = Path(config_filepath)
+        params_filepath = Path(params_filepath)
         self.config = read_yaml(config_filepath)
         self.params = read_yaml(params_filepath)
 
@@ -38,7 +35,7 @@ class ConfigurationManager:
     
     
 
-    def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
+    """def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
         config = self.config.prepare_base_model
         
         create_directories([config.root_dir])
@@ -55,10 +52,10 @@ class ConfigurationManager:
         )
 
         return prepare_base_model_config
-    
+    """
     
 
-    def get_training_config(self) -> TrainingConfig:
+    """def get_training_config(self) -> TrainingConfig:
         training = self.config.training
         prepare_base_model = self.config.prepare_base_model
         params = self.params
@@ -93,4 +90,4 @@ class ConfigurationManager:
         )
         return eval_config
 
-      
+      """

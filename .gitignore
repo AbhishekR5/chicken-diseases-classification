@@ -1,0 +1,6 @@
+__pycache__/
+artifacts/*
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
